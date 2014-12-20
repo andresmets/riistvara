@@ -1,0 +1,4 @@
+riistvara
+=========
+
+riistvara lähedane programmeerimine
