@@ -1,0 +1,5 @@
+# MCU 8051 IDE: Virtual HW component configuration file
+# Project: Valgusfoor
+# Component: LED Panel
+
+LedPanel {{4 2 0 0 5 2 1 0 6 - 2 1 7 - 3 1} {4 6 0 6 5 7 1 7 6 - 2 6 7 - 3 7} {} {} green 1}
