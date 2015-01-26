@@ -45,9 +45,9 @@ void main(void) {
 	TR0 = 1;
 	
 	while (1) {
-		P0 = C_red[indexCounter] & P_green_P0[indexCounter];
-		P1 = C_yellow[indexCounter] & P_green_P1[indexCounter];
-		P2 = C_green[indexCounter] & P_green_P2[indexCounter];
+		P0 = C_red[indexCounter] | P_green_P0[indexCounter];
+		P1 = C_yellow[indexCounter] | P_green_P1[indexCounter];
+		P2 = C_green[indexCounter] | P_green_P2[indexCounter];
 
 		P3 = P_red[indexCounter];
 	}
