@@ -77,8 +77,8 @@ void clearNumArray(unsigned int numbers[]){
 	numbers[3] = -1;
 }
 
-signed int getNumLength(unsigned int number[]){
-	int i;
+unsigned char getNumLength(unsigned int number[]){
+	char i;
 	for(i=sizeof(number);i>=0;i--){
 		if(number[i] != -1){
 			if(number[0] == 12){
@@ -90,7 +90,7 @@ signed int getNumLength(unsigned int number[]){
 	}
 	return 0;
 }
-signed int getMultiplier(signed int lenght){
+unsigned char getMultiplier(signed int lenght){
 	if(lenght == 3){
 		return 100;	
 	}
@@ -102,9 +102,9 @@ signed int getMultiplier(signed int lenght){
 
 unsigned int getDecimalnumber(unsigned int number[]){
 	int j=0,i=0,k = 0;
-	int lenght = getNumLength(number);
+	unsigned char lenght = getNumLength(number);
 	int sign = 1;
-	int multiplier = getMultiplier(lenght);
+	unsigned char multiplier = getMultiplier(lenght);
 	if(number[0] == 12){
 		sign = -1;
 		i=1;
