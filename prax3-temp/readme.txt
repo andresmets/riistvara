@@ -1,4 +1,4 @@
-Tähelepanu nupp loetakse vajutatuks kui maatriks klaviatuuril on nupp lahti lastud (vajutada nupp alla ning vajutada nupp üles)
+Nupp loetakse vajutatuks kui maatriks klaviatuuril on nupp lahti lastud (vajutada nupp alla ning vajutada nupp üles)
 Jälgida et lugemistsükkel läbiks nupu vajutatud asendis enne kui nupp lahti lasta.
 Celsiuse kraade saab sisestada vahemikus -50 =< c >=50
 Fahrenheit'i kraade saab sisestada -58 =< f >= 122
