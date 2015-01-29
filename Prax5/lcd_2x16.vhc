@@ -1,0 +1,5 @@
+# MCU 8051 IDE: Virtual HW component configuration file
+# Project: Prax5
+# Component: LCD display
+
+LcdHD44780 {2 16 {} {8 0 4 0 0 1 10 0 9 0 5 0 1 1 6 0 2 1 7 0 3 0} {8 5 4 1 0 5 10 7 9 6 5 2 1 6 6 3 2 7 7 4 3 0} {} 1 1 0 0 0 1 300x200+182+182 withdrawn {0 325x253+78+78} {0 {}} 1 1}

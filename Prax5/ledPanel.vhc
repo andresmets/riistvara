@@ -1,0 +1,5 @@
+# MCU 8051 IDE: Virtual HW component configuration file
+# Project: Prax5
+# Component: LED Panel
+
+LedPanel {{4 - 0 1 5 - 1 - 6 - 2 - 7 - 3 -} {4 - 0 4 5 - 1 - 6 - 2 - 7 - 3 -} {} {} green 1}
